@@ -25,7 +25,6 @@ st.code(code_3, language='python')
 st.markdown('''6. The code installed in this environment is now isolated
             from the rest of your python installation. This is important if you need
             to work with older software or versions incompatible with your python version.
-
             A jupyter notebook can be used to execute individual lines of code and see thier output.
             To create a notebook use this command in the anaconda prompt:
             ''')
