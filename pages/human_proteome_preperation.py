@@ -75,8 +75,8 @@ clean_proteins =(protein_df.
 code_lists = ('''
 df_targets = clean_proteins[['protein_name','sequence']].copy() # making a copy of the clean dataframe.
 
-df_targets['drug_name'] = df_drugs['Name'][0] # adding a column with a constant value of "cannaflavin a".
-df_targets['SMILES'] = df_drugs['SMILES'][0] # adding a column with a constant value of "cannaflavin a" SMILES string.
+df_targets['drug_name'] = df_drugs['Name'][0] # adding a column with a constant value of "cannflavin a".
+df_targets['SMILES'] = df_drugs['SMILES'][0] # adding a column with a constant value of "cannflavin a" SMILES string.
              ''')
 
 code_make_lists = ('''
