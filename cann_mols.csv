@@ -1,0 +1,10 @@
+Name,SMILES
+Cannflavin A,CC(=CCCC(=CCC1=C(C2=C(C=C1O)OC(=CC2=O)C3=CC(=C(C=C3)O)OC)O)C)C
+Cannflavin B,CC(=CCC1=C(C2=C(C=C1O)OC(=CC2=O)C3=CC(=C(C=C3)O)OC)O)C
+Cannflavin C,CC(=CCCC(=CCC1=C2C(=C(C=C1O)O)C(=O)C=C(O2)C3=CC(=C(C=C3)O)OC)C)C
+Canniprene,CC(=CCC1=C(C=CC(=C1O)OC)CCC2=CC(=CC(=C2)OC)O)C
+Cannabistilbene I,CC(=CCC1=C(C=CC(=C1)CCC2=CC(=CC(=C2)OC)O)O)C
+6-prenylnaringenin,CC(=CCC1=C(C2=C(C=C1O)OC(CC2=O)C3=CC=C(C=C3)O)O)C
+Hesperetin,COC1=C(C=C(C=C1)C2CC(=O)C3=C(C=C(C=C3O2)O)O)O
+Luteolin,C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O
+Quercetin,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O
