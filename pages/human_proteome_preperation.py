@@ -150,7 +150,7 @@ df_targets = clean_proteins[['Protein name','sequence']].copy() # making a copy 
 df_targets['drug_name'] = df_drugs['Name'][0] # adding a column with a constant value of "cannaflavin a".
 df_targets['SMILES'] = df_drugs['SMILES'][0] # adding a column with a constant value of "cannaflavin a" SMILES string.
 
-target_name = df_targets.['Protein name'].tolist()
+target_name = df_targets['Protein name'].tolist()
 target = df_targets.sequence.tolist()
 drug_name = df_targets.drug_name.tolist()
 drug = df_targets.SMILES.tolist()
