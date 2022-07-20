@@ -128,3 +128,20 @@ drug = dfxx.SMILES.tolist()
 net = models.model_pretrained(model = 'MPNN_CNN_DAVIS')
 
 _ = models.virtual_screening(drug, target, net, drug_name, target_name)
+
+
+
+import pandas as pd
+from DeepPurpose import DTI as models
+targets = pd.read_csv('targets_pre_screen.csv')
+
+target_name = targets['Protein name'].tolist()
+target = targets.sequence.tolist()
+drug_name = targets.drug_name.tolist()
+drug = targets.SMILES.tolist()
+
+# Virtual screening using the trained model or pre-trained model 
+
+net = models.model_pretrained(model = 'Morgan_AAC_BindingDB_IC50')
+
+_ = models.virtual_screening(drug, target, net, drug_name, target_name)
